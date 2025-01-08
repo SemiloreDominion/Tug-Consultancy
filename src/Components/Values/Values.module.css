@@ -1,0 +1,333 @@
+.container{
+    width:100%;
+}
+
+.innerContainer{
+    width:85%;
+    margin:auto;
+    padding-bottom:5rem;
+}
+
+.innerContainer h2{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align:center;
+    color:rgba(30, 30, 30, 1);
+}
+
+.value{
+    display:flex;
+    margin:auto;
+    justify-content:space-between;
+    padding-top:5rem;
+    justify-content:center;
+    gap:2rem;
+}
+
+.loyalty{
+    width:32%;
+    text-align:center;
+    padding:20px 10px;
+    background:white;
+    box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+    border-radius:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.loyalty img{
+    width:15%;
+    padding-top:1rem;
+}
+
+h3{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    color:rgba(20, 110, 36, 1);
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+.loyalty p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:rgba(179, 179, 179, 1);
+    padding-bottom:1rem;
+    width:94%;
+    margin:auto;
+}
+
+.excellence{
+    width:32%;
+    text-align:center;
+    padding:20px 10px;
+    background:white;
+    box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.excellence img{
+    width:15%;
+    padding-top:1rem;
+}
+
+.excellence p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:rgba(179, 179, 179, 1);
+    padding-bottom:1rem;
+    width:80%;
+    margin:auto;
+}
+
+.communication{
+    width:32%;
+    text-align:center;
+    padding:20px 10px;
+    background:white;
+    box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+    border-radius:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.communication img{
+    width:15%;
+    padding-top:1rem;
+}
+
+.communication p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:rgba(179, 179, 179, 1);
+    padding-bottom:1rem;
+    width:90%;
+    margin:auto;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        width:100%;
+    }
+    
+    .innerContainer{
+        width:85%;
+        margin:auto;
+        padding-bottom:5rem;
+    }
+    
+    .loyalty{
+        width:32%;
+        text-align:center;
+        padding:20px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-left:10px;
+        margin-bottom:10px;
+    }
+    
+    .loyalty img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    h3{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 500;
+        color:rgba(20, 110, 36, 1);
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    
+    .loyalty p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:94%;
+        margin:auto;
+    }
+    
+    .excellence{
+        width:32%;
+        text-align:center;
+        padding:20px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-bottom:10px;
+    }
+    
+    .excellence img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    .excellence p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.83px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:80%;
+        margin:auto;
+    }
+    
+    .communication{
+        width:32%;
+        text-align:center;
+        padding:20px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    
+    .communication img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    .communication p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:90%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        width:100%;
+    }
+    
+    .innerContainer{
+        width:85%;
+        margin:auto;
+        padding-bottom:5rem;
+    }
+    
+    .innerContainer h2{
+        font-size: 36px;
+    }
+    
+    .value{
+        display:flex;
+        flex-direction:column;
+        margin:auto;
+        justify-content:space-between;
+        padding-top:5rem;
+        justify-content:center;
+        gap:2rem;
+    }
+    
+    .loyalty{
+        width:95%;
+        margin:auto;
+        text-align:center;
+        padding:20px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-bottom:10px;
+    }
+    
+    .loyalty img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    h3{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 500;
+        color:rgba(20, 110, 36, 1);
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    
+    .loyalty p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:94%;
+        margin:auto;
+    }
+    
+    .excellence{
+        width:95%;
+        margin:auto;
+        text-align:center;
+        padding:40px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-bottom:10px;
+    }
+    
+    .excellence img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    .excellence p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:80%;
+        margin:auto;
+    }
+    
+    .communication{
+        width:95%;
+        margin:auto;
+        text-align:center;
+        padding:40px 10px;
+        background:white;
+        box-shadow:0px 0px 14px rgba(240, 240, 240, 1);
+        border-radius:10px;
+        margin-bottom:10px;
+    }
+    
+    .communication img{
+        width:15%;
+        padding-top:1rem;
+    }
+    
+    .communication p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color:rgba(179, 179, 179, 1);
+        padding-bottom:1rem;
+        width:90%;
+        margin:auto;
+    }
+}

@@ -1,0 +1,113 @@
+.container{
+    width:100%;
+}
+
+.innerContainer{
+    width:100%;
+}
+
+.innerContainer h2{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.clientText{
+    display:flex;
+    gap:4rem;
+}
+
+.clientImage1{
+    width:20%;
+    margin:auto;
+    margin-top:1rem;
+}
+
+.clientImage2{
+    width:20%;
+    margin:auto;
+}
+
+.clientImage3{
+    width:20%;
+    margin:auto;
+}
+
+
+.clientText1 img{
+    width:100%;
+}
+
+.clientText1{
+    border:3px solid rgba(20, 110, 36, 1);
+    border-radius:20px;
+    width:100rem;
+    height: 300px;
+    padding:20px 40px;
+}
+
+.clientText2{
+    border:3px solid rgba(20, 110, 36, 1);
+    border-radius:20px;
+    width:100rem;
+    height: 300px;
+    padding:20px 40px;
+}
+
+.clientText3{
+    border:3px solid rgba(20, 110, 36, 1);
+    border-radius:20px;
+    width:100rem;
+    height: 300px;
+    padding:20px 40px;
+}
+
+.clientText1 h6{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+}
+
+.clientText2 h6{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+}
+
+.clientText3 h6{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+}
+
+.clientText1 p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+    margin-top:1rem;
+}
+
+.clientText2 p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+}
+
+.clientText3 p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.32px;
+    text-align: center;
+}

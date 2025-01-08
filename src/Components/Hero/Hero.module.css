@@ -1,0 +1,225 @@
+.container{
+    width:100%;
+}
+
+.innerContainer{
+    width:100%;
+    margin:auto;
+    padding-top:14rem;
+    padding-bottom:28rem;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.innerContainer h1{
+    font-family: DM Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104.16px;
+    letter-spacing: -0.01em;
+    color:white;
+    text-align:center;
+    width:90%;
+    margin:auto;
+}
+
+.innerContainer p{
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36.46px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:white;
+    padding-top:4rem;
+    width:90%;
+    margin:auto;
+}
+
+.innerContainer2{
+    width:100%;
+    margin:auto;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:14rem;
+    padding-bottom:30rem;
+}
+
+.innerContainer2 h1{
+    font-family: DM Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104.16px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:white;
+    width:50%;
+    margin:auto;
+}
+
+.innerContainer2 p{
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36.46px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:white;
+    padding-top:2rem;
+    width:50%;
+    margin:auto;
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        width:100%;
+    }
+    
+    .innerContainer{
+        width:100%;
+        margin:auto;
+        padding-top:14rem;
+        padding-bottom:28rem;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .innerContainer h1{
+        font-family: DM Sans;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 104.16px;
+        letter-spacing: -0.01em;
+        color:white;
+        text-align:center;
+        width:90%;
+        margin:auto;
+    }
+    
+    .innerContainer p{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36.46px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:4rem;
+        width:90%;
+        margin:auto;
+    }
+    
+    .innerContainer2{
+        width:100%;
+        margin:auto;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding-top:14rem;
+        padding-bottom:38.8rem;
+    }
+    
+    .innerContainer2 h1{
+        font-family: DM Sans;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 104.16px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        width:50%;
+        margin:auto;
+    }
+    
+    .innerContainer2 p{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36.46px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:2rem;
+        width:50%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width:100%;
+    }
+    
+    .innerContainer{
+        width:100%;
+        margin:auto;
+        padding-top:8rem;
+        padding-bottom:16rem;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .innerContainer h1{
+        font-family: DM Sans;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 68.16px;
+        letter-spacing: -0.01em;
+        color:white;
+        text-align:center;
+        width:100%;
+        margin:auto;
+    }
+    
+    .innerContainer p{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.46px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:3rem;
+        width:90%;
+        margin:auto;
+    }
+
+    .innerContainer2{
+        width:100%;
+        margin:auto;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding-top:8rem;
+        padding-bottom:18.5rem;
+    }
+    
+    .innerContainer2 h1{
+        font-family: DM Sans;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 68.16px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        width:70%;
+        margin:auto;
+    }
+    
+    .innerContainer2 p{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36.46px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:2rem;
+        width:85%;
+        margin:auto;
+    }
+}
