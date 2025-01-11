@@ -35,18 +35,51 @@
     margin:auto;
 }
 
+@media screen and (max-width:1024px){
+    .innerContainer{
+        padding-top:14.9rem;
+        padding-bottom:30rem;
+    }
+
+    .innerContainer h1{
+        padding-top:2rem;
+    }
+
+    .innerContainer p{
+        padding-top:2rem;
+    }
+}
+
 @media screen and (max-width:768px){
     .innerContainer{
-        padding-top:10.5rem;
-        padding-bottom:21rem;
+        padding-top:9rem;
+        padding-bottom:18.5rem;
     }
 
     .innerContainer h1{
         font-size:50px;
+        margin-top:2rem;
     }
 
     .innerContainer p{
         font-size: 24px;
         padding-top:2rem;
     }
+}
+
+@media screen and (max-width:425px){
+    .innerContainer{
+        padding-top:3rem;
+        padding-bottom:6.6rem;
+    }
+
+    .innerContainer h1{
+        font-size:28px;
+        margin-top:2rem;
+    }
+
+    .innerContainer p{
+        font-size: 12px;
+        padding-top:1rem;
+    }   
 }

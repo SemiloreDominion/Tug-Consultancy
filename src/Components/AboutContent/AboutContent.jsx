@@ -16,7 +16,7 @@ const AboutContent = () => {
             reduce the rate of illteracy, and connect them
             to breakthroughs, goods, and services in the
             major life areas. We provide human scope and
-            international exams , education, and immigration
+            international exams, education, and immigration
             services to people worldwide.
             </p>
         </div>

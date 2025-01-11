@@ -3,6 +3,7 @@ import classes from "./Services.module.css"
 import Tuition from "../../Assets/Tuition.png";
 import Career from "../../Assets/Counselling.png";
 import Visa from "../../Assets/Passport.png";
+import {Link} from "react-router-dom";
 
 const Services = () => {
   return (
@@ -10,7 +11,7 @@ const Services = () => {
       <div className={classes.innerContainer}>
         <div className={classes.serviceText}>
           <h2>We Offer Best Services</h2>
-          <p>See All</p>
+          <Link to="/servicesPage"><p>See All</p></Link>
         </div>
         <div className={classes.service}>
 

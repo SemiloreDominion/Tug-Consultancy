@@ -1,5 +1,6 @@
 .container{
     width:100%;
+    background-color:white;
 }
 
 .innerContainer{
@@ -68,12 +69,12 @@ a{
     .innerContainer{
         width:90%;
         margin:auto;
-        margin-top:1rem;
+        margin-top:1.5rem;
         margin-bottom:1rem;
     }
 
     .Logo{
-        width:15%;
+        width:16%;
     }
     
     header{
@@ -118,7 +119,7 @@ a{
         margin:auto;
         gap:1rem;
         margin-left:4rem;
-        margin-top:1rem;
+        margin-top:1.1rem;
     }
     
     .socials li{
@@ -129,6 +130,10 @@ a{
 }
 
 @media screen and (max-width:768px){    
+    .Logo{
+        width:18%;
+    }
+    
     .navBar{
         display:flex;
         padding-left:2rem;
@@ -162,7 +167,7 @@ a{
         width:12%;
         margin:auto;
         gap:0.5rem;
-        margin-top:.3rem;
+        margin-top:.5rem;
         margin-left:4rem;
     }
     
@@ -174,46 +179,5 @@ a{
 }
 
 @media screen and (max-width:425px){    
-    .navBar{
-        display:flex;
-        padding-left:2rem;
-        width:80%;
-        margin:auto;
-        padding-left:3rem;
-    }
-    
-    .navBar li{
-        list-style-type:none;
-        color: #146E24;
-        font-family: DM Sans;
-        font-size: 14px;
-        font-weight: 700;
-        cursor:pointer;
-        width:100%;
-        margin:auto;
-    }
-    
-    a:visited{
-        text-decoration:none;
-        color:#146E24;
-    }
-    
-    a{
-        text-decoration:none;
-    }
-    
-    .socials{
-        display:flex;
-        width:12%;
-        margin:auto;
-        gap:0.5rem;
-        margin-top:.3rem;
-        margin-left:4rem;
-    }
-    
-    .socials li{
-        color:#146E24;
-        width:100%;
-        list-style-type:none;
-    }
+   
 }

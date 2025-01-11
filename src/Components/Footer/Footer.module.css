@@ -65,7 +65,7 @@
 }
 
 .quick{
-    padding-right:4rem;
+    padding-right:3rem;
     padding-left:4rem;
 }
 
@@ -78,7 +78,8 @@
 }
 
 .follow{
-   padding-right:8.5rem;
+   padding-right:2rem;
+   width:25%;
 }
 
 .followIcon{
@@ -263,4 +264,76 @@ hr{
     gap:0.1rem;
     padding-left:16rem;
 }
+}
+
+@media screen and (max-width:425px){
+    .innerContainer{
+        padding-top:5rem;
+    }
+
+    .footLogo{
+        width:35%;
+        padding-bottom:1.5rem;
+    }
+
+    #copyright{
+        padding-left:5.5rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .innerContainer{
+        padding-top:5rem;
+    }
+
+    .footLogo{
+        width:35%;
+        padding-bottom:1.2rem;
+    }
+
+    #copyright{
+        padding-left:4.8rem;
+        font-size: 14px;
+        padding-top:2rem;
+        padding-bottom:1.2rem;
+    }
+
+    .footText p{
+        font-size: 14px;
+        line-height: 20px;
+        width:95%;
+        padding-bottom:3rem;
+    }
+    
+    .footInfo p{
+        gap:0.5rem;
+        padding-bottom:1.4rem;
+        font-size: 14px;
+    }
+    
+    .footRight h5{
+        font-size: 18px;    
+        padding-bottom:14px;
+    }
+    
+    .quick{
+        width:100%;
+    }
+    
+    .quick p{
+        font-size: 14px;
+        padding-bottom:14px;
+    }
+    
+    .follow{
+       width:100%;
+    }
+    
+    .followIcon{
+        gap:1.4rem;
+    }
+
+    .email p{
+        font-size: 14px;
+    }
 }

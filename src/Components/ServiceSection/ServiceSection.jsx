@@ -112,7 +112,7 @@ const ServiceSection = () => {
                   <div className={classes.section}>
                     <p>Int’l Exams Registration & Preparation</p>
                   </div>
-                  <p>TWe deal with international examinations such as
+                  <p>We deal with international examinations such as
                     TOEFL, SAT, IELTS, GRE, etc. We also help in preparing
                     you adequately.
                   </p>

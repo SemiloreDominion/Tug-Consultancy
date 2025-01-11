@@ -80,8 +80,8 @@
     .innerContainer{
         width:100%;
         margin:auto;
-        padding-top:14rem;
-        padding-bottom:28rem;
+        padding-top:10rem;
+        padding-bottom:20rem;
         background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
         background-repeat:no-repeat;
         background-size:cover;
@@ -89,14 +89,15 @@
     
     .innerContainer h1{
         font-family: DM Sans;
-        font-size: 80px;
+        font-size: 65px;
         font-weight: 700;
-        line-height: 104.16px;
+        line-height: 95px;
         letter-spacing: -0.01em;
         color:white;
         text-align:center;
         width:90%;
         margin:auto;
+        padding-top:7rem;
     }
     
     .innerContainer p{
@@ -108,7 +109,7 @@
         text-align: center;
         color:white;
         padding-top:4rem;
-        width:90%;
+        width:80%;
         margin:auto;
     }
     
@@ -118,8 +119,8 @@
         background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
         background-repeat:no-repeat;
         background-size:cover;
-        padding-top:14rem;
-        padding-bottom:38.8rem;
+        padding-top:12rem;
+        padding-bottom:24rem;
     }
     
     .innerContainer2 h1{
@@ -132,6 +133,7 @@
         color:white;
         width:50%;
         margin:auto;
+        padding-top:4rem;
     }
     
     .innerContainer2 p{
@@ -156,8 +158,8 @@
     .innerContainer{
         width:100%;
         margin:auto;
-        padding-top:8rem;
-        padding-bottom:16rem;
+        padding-top:5rem;
+        padding-bottom:10rem;
         background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
         background-repeat:no-repeat;
         background-size:cover;
@@ -194,8 +196,8 @@
         background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
         background-repeat:no-repeat;
         background-size:cover;
-        padding-top:8rem;
-        padding-bottom:18.5rem;
+        padding-top:7rem;
+        padding-bottom:13.5rem;
     }
     
     .innerContainer2 h1{
@@ -220,6 +222,154 @@
         color:white;
         padding-top:2rem;
         width:85%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:425px){
+    .innerContainer{
+        width:100%;
+        margin:auto;
+        padding-top:2rem;
+        padding-bottom:4rem;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .innerContainer h1{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.01em;
+        color:white;
+        text-align:center;
+        width:100%;
+        margin:auto;
+        padding-top:2rem;
+        overflow-y:hidden;
+    }
+    
+    .innerContainer p{
+        font-family: DM Sans;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:1.5rem;
+        width:80%;
+        margin:auto;
+    }
+
+    .innerContainer2{
+        width:100%;
+        margin:auto;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding-top:2.1rem;
+        padding-bottom:4rem;
+    }
+    
+    .innerContainer2 h1{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        width:70%;
+        margin:auto;
+    }
+    
+    .innerContainer2 p{
+        font-family: DM Sans;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:1rem;
+        width:55%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:375px){
+    .innerContainer{
+        width:100%;
+        margin:auto;
+        padding-top:3rem;
+        padding-bottom:4.58rem;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Window.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
+    .innerContainer h1{
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: -0.01em;
+        color:white;
+        text-align:center;
+        width:100%;
+        margin:auto;
+        padding-top:2rem;
+        overflow-y:hidden;
+    }
+    
+    .innerContainer p{
+        font-family: DM Sans;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:1.5rem;
+        width:80%;
+        margin:auto;
+    }
+
+    .innerContainer2{
+        width:100%;
+        margin:auto;
+        background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../Assets/Abroad.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding-top:2.1rem;
+        padding-bottom:4rem;
+    }
+    
+    .innerContainer2 h1{
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        width:70%;
+        margin:auto;
+    }
+    
+    .innerContainer2 p{
+        font-family: DM Sans;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color:white;
+        padding-top:1rem;
+        width:55%;
         margin:auto;
     }
 }

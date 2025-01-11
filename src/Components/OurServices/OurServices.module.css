@@ -34,3 +34,49 @@
     width:90%;
     margin:auto;
 }
+
+@media screen and (max-width:1024px){
+    .innerContainer{
+        padding-top:13.9rem;
+        padding-bottom:28rem;
+    }
+    
+    .innerContainer h1{
+        margin-top:5rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .innerContainer{
+        padding-top:9rem;
+        padding-bottom:18.5rem;
+    }
+
+    .innerContainer h1{
+        font-size:50px;
+        margin-top:4rem;
+    }
+    
+    .innerContainer p{
+        font-size: 24px;
+        padding-top:2rem;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .innerContainer{
+        padding-top:4rem;
+        padding-bottom:7.6rem;
+    }
+    
+    .innerContainer h1{
+        font-size:28px;
+        margin-top:2rem;
+    }
+    
+    .innerContainer p{
+        font-size: 12px;
+        padding-top:1rem;
+    }   
+}

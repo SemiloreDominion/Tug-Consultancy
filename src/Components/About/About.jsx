@@ -18,7 +18,7 @@ const About = () => {
                      goods, and services in the major life areas.
                      We provide human scope and international exams,
                      education, and immigration services to people
-                     worldwide
+                     worldwide.
                 </p>
                 <div className={classes.aboutButton}>
                     <button>Learn More</button>
@@ -29,6 +29,8 @@ const About = () => {
             </div>
         </div>
     </div>
+
+    
   )
 }
 

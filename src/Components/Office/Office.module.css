@@ -176,3 +176,92 @@
         padding-bottom:8rem;
     }
 }
+
+@media screen and (max-width:425px){
+    .innerContainer{
+        width:90%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        padding-bottom:10rem;
+    }
+
+    .office h2{
+        padding-bottom:2rem;
+    }
+
+    .office{
+        padding-bottom:4rem;
+    }
+
+    .drop h2{
+        text-align:center;
+        padding-bottom:3rem;
+    }
+
+    .officeInfo p{
+        padding-bottom:2rem;
+    }
+    
+    .drop input{
+        margin-bottom:2rem;
+    }
+    
+    .dropMessage input{
+        padding-bottom:8rem;
+    }
+    
+    .send button{
+        font-size: 14px;
+        padding:0.5rem 1rem;
+        gap:0.4rem;  
+    }
+}
+
+@media screen and (max-width:375px){
+    .innerContainer{
+        width:90%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        padding-bottom:10rem;
+    }
+
+    .office h2{
+        padding-bottom:1.5rem;
+        font-size:30px;
+    }
+
+    .office{
+        padding-bottom:4rem;
+    }
+
+    .office p span{
+        font-size: 14px;
+    }
+
+    .drop h2{
+        text-align:center;
+        padding-bottom:2.5rem;
+        font-size:30px;
+    }
+
+    .officeInfo p{
+        padding-bottom:1.5rem;
+        font-size: 18px;
+    }
+    
+    .drop input{
+        margin-bottom:2rem;
+    }
+    
+    .dropMessage input{
+        padding-bottom:8rem;
+    }
+    
+    .send button{
+        font-size: 14px;
+        padding:0.5rem 1rem;
+        gap:0.4rem;  
+    }
+}
